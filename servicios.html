@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | SmartCore Solutions RD</title>
+    <meta name="description" content="Servicios de creación de landing pages y sistemas POS (nube y local) para optimizar tu negocio.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .service-header { padding-top: 120px; padding-bottom: 3rem; text-align: center; }
+        .service-detail { display: flex; flex-wrap: wrap; gap: 4rem; align-items: center; margin-bottom: 6rem; }
+        .service-detail:nth-child(even) { flex-direction: row-reverse; }
+        .service-text { flex: 1; min-width: 300px; }
+        .service-text h2 { color: var(--primary-color); margin-bottom: 1.5rem; }
+        .service-text ul { margin-top: 1.5rem; margin-bottom: 2rem; }
+        .service-text li { margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem; color: var(--text-muted); }
+        .service-text li i { color: var(--accent-color); }
+        .service-img { flex: 1; min-width: 300px; height: 400px; background: var(--bg-color-alt); border-radius: 1rem; border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; font-size: 5rem; color: var(--primary-color); box-shadow: 0 20px 40px rgba(0,0,0,0.2); position: relative; overflow: hidden; }
+        .service-img::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, transparent, rgba(59, 130, 246, 0.1)); }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo text-gradient">SMARTCORE</a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="portafolio.html">Portafolio</a>
+                <a href="servicios.html" class="active">Servicios</a>
+                <a href="precios.html">Precios</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Header -->
+    <section class="service-header fade-in">
+        <div class="container">
+            <h1 class="text-gradient">Servicios Especializados</h1>
+            <p>Herramientas y plataformas creadas para resolver problemas reales, automatizar operaciones y escalar tu empresa.</p>
+        </div>
+    </section>
+
+    <!-- Services Content -->
+    <section style="padding-top: 0;">
+        <div class="container">
+            
+            <!-- Service 1 -->
+            <div class="service-detail fade-in">
+                <div class="service-text">
+                    <h2>Creación de Landing Pages</h2>
+                    <p>Diseño e implementación de páginas web estratégicas que convierten visitantes en clientes. Ideal para lanzar un producto, promover un servicio profesional o captar prospectos.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Diseño responsivo (Mobile-First)</li>
+                        <li><i class="fas fa-check-circle"></i> Optimización de velocidad y SEO Básico</li>
+                        <li><i class="fas fa-check-circle"></i> Integración con WhatsApp y formularios</li>
+                    </ul>
+                    <a href="https://wa.me/18299333226?text=Quiero%20una%20Landing%20Page" class="btn btn-primary">Cotizar Landing Page</a>
+                </div>
+                <div class="service-img">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-detail fade-in">
+                <div class="service-text">
+                    <h2>Sistema POS (Local y Nube)</h2>
+                    <p>Solución completa de Punto de Venta para negocios que buscan control total. Gestiona inventario, ventas y cierres de caja con un sistema robusto, rápido y confiable.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Versión de escritorio para operación sin internet</li>
+                        <li><i class="fas fa-check-circle"></i> Versión en la nube para acceso remoto</li>
+                        <li><i class="fas fa-check-circle"></i> Control de stock, reportes y métricas</li>
+                    </ul>
+                    <a href="https://wa.me/18299333226?text=Quiero%20saber%20m%C3%A1s%20del%20sistema%20POS" class="btn btn-primary">Consultar sobre el POS</a>
+                </div>
+                <div class="service-img">
+                    <i class="fas fa-cash-register"></i>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-detail fade-in">
+                <div class="service-text">
+                    <h2>Punto de Venta Web Exclusivo</h2>
+                    <p>Para negocios modernos que necesitan movilidad. Un sistema POS 100% web que puedes operar desde cualquier tablet o computadora con acceso a internet.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Acceso global 24/7</li>
+                        <li><i class="fas fa-check-circle"></i> Sin necesidad de instalaciones complejas</li>
+                        <li><i class="fas fa-check-circle"></i> Soporte técnico continuo</li>
+                    </ul>
+                    <a href="https://wa.me/18299333226?text=Quiero%20una%20demo%20del%20POS%20Web" class="btn btn-primary">Solicitar Demo</a>
+                </div>
+                <div class="service-img">
+                    <i class="fas fa-globe"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4 class="text-gradient">SmartCore Solutions RD</h4>
+                    <p>Transformando ideas en ecosistemas digitales escalables y seguros.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="precios.html">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="https://wa.me/18299333226"><i class="fab fa-whatsapp"></i> +1 (829) 933-3226</a></li>
+                        <li>Soluciones a medida para tiendas, servicios y profesionales.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SmartCore Solutions RD. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

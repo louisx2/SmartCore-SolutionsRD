@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | SmartCore Solutions RD</title>
+    <meta name="description" content="Conoce mis proyectos: sistemas de escritorio y landing pages para personas y empresas.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .portfolio-header { padding-top: 120px; padding-bottom: 3rem; text-align: center; }
+        .project-card { display: flex; flex-direction: column; overflow: hidden; }
+        .project-img { width: 100%; height: 250px; background-color: var(--glass-bg); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: var(--primary-color); border-bottom: 1px solid var(--border-color); }
+        .project-content { padding: 2rem; flex: 1; display: flex; flex-direction: column; }
+        .project-tags { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+        .tag { background: rgba(59, 130, 246, 0.1); color: var(--accent-color); padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
+        .project-content p { flex: 1; }
+        .project-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-main); font-weight: 600; margin-top: 1rem; }
+        .project-link:hover { color: var(--primary-color); }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo text-gradient">SMARTCORE</a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="portafolio.html" class="active">Portafolio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="precios.html">Precios</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header fade-in">
+        <div class="container">
+            <h1 class="text-gradient">Mis Trabajos</h1>
+            <p>Sistemas robustos y diseños enfocados en la conversión. Descubre cómo ayudo a empresas y profesionales a lograr sus objetivos digitales.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section style="padding-top: 0;">
+        <div class="container">
+            <div class="grid">
+                
+                <!-- Project 1: Desktop System -->
+                <div class="card project-card fade-in" style="padding: 0;">
+                    <div class="project-img">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Sistema POS</span>
+                            <span class="tag">Escritorio</span>
+                        </div>
+                        <h3>Punto de Venta Local</h3>
+                        <p>Sistema POS de alto rendimiento desarrollado para instalaciones locales. Gestión rápida de inventario, ventas y reportes para tiendas físicas.</p>
+                        <a href="https://wa.me/18299333226?text=Me%20interesa%20ver%20una%20demo%20del%20sistema%20POS%20de%20escritorio" class="project-link">Solicitar Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Landing Page -->
+                <div class="card project-card fade-in" style="transition-delay: 0.1s; padding: 0;">
+                    <div class="project-img">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Landing Page</span>
+                            <span class="tag">Conversión</span>
+                        </div>
+                        <h3>Landing Page Corporativa</h3>
+                        <p>Diseño web enfocado en la conversión para empresas de servicios. Estructura optimizada para captar leads y agendar clientes de forma automática.</p>
+                        <a href="https://wa.me/18299333226?text=Me%20interesa%20una%20Landing%20Page" class="project-link">Saber Más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Web POS System -->
+                <div class="card project-card fade-in" style="transition-delay: 0.2s; padding: 0;">
+                    <div class="project-img">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Cloud</span>
+                            <span class="tag">Sistema Web</span>
+                        </div>
+                        <h3>POS en la Nube</h3>
+                        <p>Plataforma web accesible desde cualquier dispositivo. Sincronización en tiempo real, ideal para negocios con múltiples sucursales.</p>
+                        <a href="https://wa.me/18299333226?text=Me%20interesa%20ver%20una%20demo%20del%20sistema%20POS%20en%20la%20nube" class="project-link">Solicitar Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4 class="text-gradient">SmartCore Solutions RD</h4>
+                    <p>Transformando ideas en ecosistemas digitales escalables y seguros.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="precios.html">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="https://wa.me/18299333226"><i class="fab fa-whatsapp"></i> +1 (829) 933-3226</a></li>
+                        <li>Soluciones a medida para tiendas, servicios y profesionales.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SmartCore Solutions RD. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
